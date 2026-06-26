@@ -117,8 +117,7 @@ Register accounts with these roles to test the full flow:
 
 | Job | Schedule | Action |
 |-----|----------|--------|
-| Urgent Escalation | Every 30 min | Escalates unresolved urgent complaints |
-| Auto-assign | Every hour | Assigns pending complaints to available staff |
+| Escalation | After 3 days | Escalates unresolved complaints after 3 days |
 | Night Shift Start | 10:00 PM | Activates night warden mode |
 | Night Handoff | 6:00 AM | Hands off unresolved complaints to floor wardens |
 | Shift Report | 6:10 AM | Generates and saves night shift summary report |
